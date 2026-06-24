@@ -1,9 +1,9 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}] # 매일 자정 자동 업데이트
-  workflow_dispatch: # 수동 실행 허용
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
 permissions:
-  contents: write # ⬅️ 이 줄을 추가하여 커밋 권한을 부여합니다.
+  contents: write
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -15,6 +15,5 @@ jobs:
           template: classic
           base: ""
           plugin_languages: yes
-          plugin_languages_ignored: "" # 무시할 언어 목록을 비워둡니다.
+          plugin_languages_ignored: ""
           plugin_languages_details: bytes-size, percentage
-          config_transparent: yes
