@@ -16,3 +16,5 @@ Here are some ideas to get you started:
 -->
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shittim-plana&show_icons=true&count_private=true&theme=transparent)](https://github.com/shittim-plana/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shittim-plana&layout=compact&theme=transparent)](https://github.com/shittim-plana/github-readme-stats)
+
+![GitHub Metrics](github-metrics.svg)
